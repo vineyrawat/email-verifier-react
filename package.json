@@ -15,6 +15,12 @@
     "styled-components": "^5.3.0",
     "web-vitals": "^1.0.1"
   },
+  "keywords": [
+    "javascript",
+    "react",
+    "email",
+    "react project"
+  ],
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
