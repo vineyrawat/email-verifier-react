@@ -5,6 +5,7 @@ import { Container } from "./styles";
 import ErrorHolder from "./components/error-holder";
 import emailService from "../../services/emailService";
 import Details from "./components/details";
+import Footer from "./components/footer";
 
 function HomePage() {
   const [error, setError] = React.useState(null);
@@ -31,6 +32,7 @@ function HomePage() {
         <EmailInput loading={loading} onSubmit={handleSubmit} />
         {error && <ErrorHolder error={error} />}
         {data && <Details data={data} />}
+        <Footer />
       </Container>
     </>
   );
