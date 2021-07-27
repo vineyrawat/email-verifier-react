@@ -2,6 +2,9 @@
 
 This is a simple email verification app made using react
 
+### Live Preview
+https://vineyrawat.github.io/email-verifier-react/
+
 ## Available Scripts
 
 In the project directory, you can run:
